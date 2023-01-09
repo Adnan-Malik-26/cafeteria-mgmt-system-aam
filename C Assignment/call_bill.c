@@ -1,4 +1,4 @@
-#include <stdio.h> 
+#include <stdio.h>                                                                                   
 int main()
 {
     int no_of_calls,charge,no_of_calls_over;
