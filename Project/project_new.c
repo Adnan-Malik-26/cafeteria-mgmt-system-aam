@@ -1,5 +1,6 @@
 #include <stdio.h>
-int main()
+
+void main()
 {
     int order,choice;
     int total=0;
@@ -7,7 +8,7 @@ int main()
     int chow=0,pizza=0,pasta=0,momos=0,rice=0;
     int pizza_total,pasta_total,momos_total,chowmein_total,fried_rice_total;
 
-    
+
 
     printf("**********WELCOME TO THE CAFETERIA**********\n");
     printf("\t\t*****MENU*****\n");
@@ -17,7 +18,9 @@ int main()
     printf("[3] Momos            150\n");
     printf("[4] Chowmein         200\n");
     printf("[5] Fried Rice       150\n");
-        
+
+
+
         repeat:
         printf("Please Enter Your Choice: ");
         scanf("%d",&choice);
