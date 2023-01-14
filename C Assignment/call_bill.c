@@ -1,6 +1,5 @@
 #include <stdio.h>                                                                                   
-int main()
-{
+int main(){
     int no_of_calls,charge,no_of_calls_over;
     printf("Please Enter Your Number of calls: ");
     scanf("%d",&no_of_calls);
@@ -25,11 +24,7 @@ int main()
             no_of_calls_over=no_of_calls-500;
             charge = no_of_calls_over*2;
             printf("Your Charge is Rs.%d",charge);
-        }
-        
-        return 0;
-        
-    }
-    
-    
+        }  
+        return 0;        
+    }  
 }
