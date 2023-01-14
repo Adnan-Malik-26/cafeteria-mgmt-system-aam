@@ -6,8 +6,7 @@ int main()
     
     printf("Please Enter Your Gender(M for male and F for Female): h     ");
     scanf("%c",&sex);
-    switch (sex)
-    {
+    switch (sex){
     case 'M':
         printf("Please Enter Your Salary: ");
         scanf("%d",&salary);
