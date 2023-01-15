@@ -4,7 +4,7 @@ int main()
     char sex;
     int salary,bonus,salary_after_bonus;
     
-    printf("Please Enter Your Gender(M for male and F for Female): h     ");
+    printf("Please Enter Your Gender(M for male and F for Female): ");
     scanf("%c",&sex);
     switch (sex){
     case 'M':
