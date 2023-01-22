@@ -7,7 +7,7 @@ int main(){
     if (no_of_calls<=200)
     {
         printf("You have not exceeded the limit of 200 calls.");
-        printf("\nNo Charge.");
+        printf("\nNo Charge To You. \nHave a Great Day...");
     }
     else
     {
