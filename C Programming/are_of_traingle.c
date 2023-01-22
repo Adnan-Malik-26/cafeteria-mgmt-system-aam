@@ -6,4 +6,5 @@ void main()
     scanf("%f %f",&base,&height);
     float area = (base * height) / 2; 
     printf("Area of Triangle is %0.2f",area);
+    
 }
